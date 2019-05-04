@@ -56,3 +56,7 @@ docker exec -e "CORE_PEER_LOCALMSPID=Org1MSP" -e "CORE_PEER_MSPCONFIGPATH=/opt/g
 13- transfer the diamond to an owner called "Victoria"
 
 docker exec -e "CORE_PEER_LOCALMSPID=Org1MSP" -e "CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp" cli peer chaincode invoke -o orderer.example.com:7050 -C mychannel -n diamonds -c '{"Args":["transferDiamond","Kohinoor","Victoria"]}'
+
+14- clean up the environment after finishing:
+
+./teardown.sh
