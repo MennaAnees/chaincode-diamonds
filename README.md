@@ -1,9 +1,9 @@
 # chaincode-diamonds
 project description:
-    creating a very simple chaincode which that will do the following:
-            -Allow for creation of a diamond asset
-            -Allow for transferring diamond ownership
-            -Allow for querying a diamond asset
+creating a very simple chaincode which that will do the following:
+      1-Allow for creation of a diamond asset
+      2-Allow for transferring diamond ownership
+      3-Allow for querying a diamond asset
 
 How to run it:
 
