@@ -1,17 +1,18 @@
 # chaincode-diamonds
 project description:
 
-creating a very simple chaincode which that will do the following:
+creating a very simple chaincode which will do the following:
 
       1-Allow for creation of a diamond asset
 
       2-Allow for transferring diamond ownership
-      
+
       3-Allow for querying a diamond asset
 
 How to run it:
 
-1- Clone fabric-samples from github
+1- Clone fabric-samples project from github:
+  "https://github.com/hyperledger/fabric-samples"
 
 2- Run the following command to clean up any instance of hyperledger (inside the ~/fabric-samples/first-network directory):
  ./teardown.sh
